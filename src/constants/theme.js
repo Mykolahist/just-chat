@@ -1,10 +1,18 @@
 export const theme = {
   colors: {
-    topBgColor: "#F4F6F6",
-    inputBgColor: "#FBFCFC",
-    borderColor: "#707B7C",
-    borderInptColor: "#D5DBDB",
-    placeholderColor: "#95A5A6",
+    bgColor: "#FDFDFF",
+    bgMessagesColor: "#EDF1F6",
+    white: "#FFFFFF",
+    borderColor: "#E1E2FF",
+    borderTopColor: "#DFE0EB",
+    borderInptColor: "#DAE0E0",
+    placeholderColor: "#DBDBDB",
+    iconColor: "#ADADAD",
+    textColor: "#363636",
+    onlineColor: "#9DCC51",
+    avatarColor: "#7879F1",
+    borderTextarea: "#A5A6F6",
+    buttonColor: "#5D5FEF"
   },
   fontFamily: "Mulish",
 };
