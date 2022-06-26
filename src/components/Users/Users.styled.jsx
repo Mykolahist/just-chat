@@ -28,8 +28,6 @@ export const Item = styled.li`
   background-color: ${props => props.theme.colors.white};
   border-radius: 10px;
 
-  cursor: pointer;
-
   :not(:last-child) {
     margin-bottom: 8px;
   }
@@ -37,6 +35,8 @@ export const Item = styled.li`
   &:hover {
     box-shadow: 0px 10px 60px rgba(170, 178, 197, 0.2);
   }
+
+  cursor: pointer;
 `;
 
 export const Photo = styled.img`

@@ -45,4 +45,6 @@ export const Button = styled.button`
   background-color: ${props => props.theme.colors.buttonColor};
   border: ${props => `1px solid ${props.theme.colors.buttonColor}`};
   border-radius: 10px;
+
+  cursor: pointer;
 `;
